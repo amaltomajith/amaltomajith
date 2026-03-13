@@ -1,0 +1,133 @@
+<svg width="820" height="320" viewBox="0 0 820 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .mono { font-family: 'Courier New', Courier, monospace; }
+      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+      .cursor { animation: blink 1s step-end infinite; }
+      @keyframes fadeIn { from{opacity:0} to{opacity:1} }
+      .l1  { animation: fadeIn 0.1s 0.3s both; }
+      .l2  { animation: fadeIn 0.1s 0.7s both; }
+      .l3  { animation: fadeIn 0.1s 1.1s both; }
+      .l4  { animation: fadeIn 0.1s 1.4s both; }
+      .l5  { animation: fadeIn 0.1s 1.7s both; }
+      .l6  { animation: fadeIn 0.1s 2.0s both; }
+      .l7  { animation: fadeIn 0.1s 2.3s both; }
+      .l8  { animation: fadeIn 0.1s 2.6s both; }
+      .l9  { animation: fadeIn 0.1s 2.9s both; }
+      .l10 { animation: fadeIn 0.1s 3.2s both; }
+    </style>
+    <!-- Scanline overlay -->
+    <pattern id="scanlines" x="0" y="0" width="100%" height="2" patternUnits="userSpaceOnUse">
+      <rect width="100%" height="1" fill="rgba(0,0,0,0.18)"/>
+    </pattern>
+  </defs>
+
+  <!-- Terminal background -->
+  <rect width="820" height="320" rx="10" ry="10" fill="#0d0d0d"/>
+
+  <!-- Title bar -->
+  <rect width="820" height="36" rx="10" ry="10" fill="#1a1a1a"/>
+  <rect y="18" width="820" height="18" fill="#1a1a1a"/>
+
+  <!-- Traffic lights -->
+  <circle cx="22" cy="18" r="6" fill="#ff5f57"/>
+  <circle cx="42" cy="18" r="6" fill="#febc2e"/>
+  <circle cx="62" cy="18" r="6" fill="#28c840"/>
+
+  <!-- Title bar text -->
+  <text x="410" y="23" class="mono" font-size="12" fill="#888888" text-anchor="middle" dominant-baseline="middle">amaltom@kali: ~</text>
+
+  <!-- Separator line -->
+  <line x1="0" y1="36" x2="820" y2="36" stroke="#2a2a2a" stroke-width="1"/>
+
+  <!-- Terminal content — each line fades in -->
+
+  <!-- Line 1: prompt -->
+  <g class="l1">
+    <text x="20" y="68" class="mono" font-size="13.5" fill="#008f11">┌─[</text>
+    <text x="57" y="68" class="mono" font-size="13.5" fill="#00ff41">amaltom</text>
+    <text x="121" y="68" class="mono" font-size="13.5" fill="#008f11">@</text>
+    <text x="133" y="68" class="mono" font-size="13.5" fill="#00d4ff">kali</text>
+    <text x="168" y="68" class="mono" font-size="13.5" fill="#008f11">]─[</text>
+    <text x="202" y="68" class="mono" font-size="13.5" fill="#ffb000">~</text>
+    <text x="214" y="68" class="mono" font-size="13.5" fill="#008f11">]</text>
+  </g>
+
+  <!-- Line 2: command -->
+  <g class="l2">
+    <text x="20" y="90" class="mono" font-size="13.5" fill="#008f11">└──╼ </text>
+    <text x="72" y="90" class="mono" font-size="13.5" fill="#00ff41">$ </text>
+    <text x="90" y="90" class="mono" font-size="13.5" fill="#ffffff">cat </text>
+    <text x="122" y="90" class="mono" font-size="13.5" fill="#00d4ff">profile.txt</text>
+  </g>
+
+  <!-- Blank line gap -->
+
+  <!-- NAME -->
+  <g class="l3">
+    <text x="36" y="122" class="mono" font-size="13" fill="#555555">NAME</text>
+    <text x="100" y="122" class="mono" font-size="13" fill="#444444">→</text>
+    <text x="118" y="122" class="mono" font-size="13" fill="#ffffff">Amal Tom</text>
+  </g>
+
+  <!-- ROLE -->
+  <g class="l4">
+    <text x="36" y="146" class="mono" font-size="13" fill="#555555">ROLE</text>
+    <text x="100" y="146" class="mono" font-size="13" fill="#444444">→</text>
+    <text x="118" y="146" class="mono" font-size="13" fill="#00d4ff">Full-Stack Dev</text>
+    <text x="266" y="146" class="mono" font-size="13" fill="#444444"> · </text>
+    <text x="286" y="146" class="mono" font-size="13" fill="#7b8fff">AI Engineer</text>
+    <text x="388" y="146" class="mono" font-size="13" fill="#444444"> · </text>
+    <text x="408" y="146" class="mono" font-size="13" fill="#ff4444">Security</text>
+  </g>
+
+  <!-- DEGREE -->
+  <g class="l5">
+    <text x="36" y="170" class="mono" font-size="13" fill="#555555">DEGREE</text>
+    <text x="100" y="170" class="mono" font-size="13" fill="#444444">→</text>
+    <text x="118" y="170" class="mono" font-size="13" fill="#cccccc">BTech IT @ Christ University </text>
+    <text x="490" y="170" class="mono" font-size="13" fill="#ffb000">(2024–2027)</text>
+  </g>
+
+  <!-- BASE -->
+  <g class="l6">
+    <text x="36" y="194" class="mono" font-size="13" fill="#555555">BASE</text>
+    <text x="100" y="194" class="mono" font-size="13" fill="#444444">→</text>
+    <text x="118" y="194" class="mono" font-size="13" fill="#cccccc">Bangalore / Kerala, India 🇮🇳</text>
+  </g>
+
+  <!-- MAIL -->
+  <g class="l7">
+    <text x="36" y="218" class="mono" font-size="13" fill="#555555">MAIL</text>
+    <text x="100" y="218" class="mono" font-size="13" fill="#444444">→</text>
+    <text x="118" y="218" class="mono" font-size="13" fill="#00ff41">work.amaltom@gmail.com</text>
+  </g>
+
+  <!-- STATUS -->
+  <g class="l8">
+    <text x="36" y="242" class="mono" font-size="13" fill="#555555">STATUS</text>
+    <text x="100" y="242" class="mono" font-size="13" fill="#444444">→</text>
+    <text x="118" y="242" class="mono" font-size="13" fill="#28c840">🟢 Open for Internships &amp; Collabs</text>
+  </g>
+
+  <!-- blank line + next prompt -->
+  <g class="l9">
+    <text x="20" y="274" class="mono" font-size="13.5" fill="#008f11">┌─[</text>
+    <text x="57" y="274" class="mono" font-size="13.5" fill="#00ff41">amaltom</text>
+    <text x="121" y="274" class="mono" font-size="13.5" fill="#008f11">@</text>
+    <text x="133" y="274" class="mono" font-size="13.5" fill="#00d4ff">kali</text>
+    <text x="168" y="274" class="mono" font-size="13.5" fill="#008f11">]─[</text>
+    <text x="202" y="274" class="mono" font-size="13.5" fill="#ffb000">~</text>
+    <text x="214" y="274" class="mono" font-size="13.5" fill="#008f11">]</text>
+  </g>
+
+  <g class="l10">
+    <text x="20" y="296" class="mono" font-size="13.5" fill="#008f11">└──╼ </text>
+    <text x="72" y="296" class="mono" font-size="13.5" fill="#00ff41">$ </text>
+    <!-- blinking cursor -->
+    <rect x="90" y="282" width="9" height="16" fill="#00ff41"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- Scanlines overlay -->
+  <rect width="820" height="320" rx="10" fill="url(#scanlines)" opacity="0.4"/>
+</svg>

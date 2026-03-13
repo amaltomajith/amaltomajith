@@ -1,0 +1,61 @@
+<svg width="820" height="160" viewBox="0 0 820 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .mono { font-family: 'Courier New', Courier, monospace; }
+      @keyframes fadeIn { from{opacity:0} to{opacity:1} }
+      @keyframes blink  { 0%,100%{opacity:1} 50%{opacity:0} }
+      .l1 { animation: fadeIn 0.05s 0.3s both; }
+      .l2 { animation: fadeIn 0.05s 0.7s both; }
+      .l3 { animation: fadeIn 0.05s 1.2s both; }
+      .l4 { animation: fadeIn 0.05s 1.8s both; }
+      .cursor { animation: blink 1s step-end infinite; }
+    </style>
+    <pattern id="scan3" x="0" y="0" width="100%" height="2" patternUnits="userSpaceOnUse">
+      <rect width="100%" height="1" fill="rgba(0,0,0,0.15)"/>
+    </pattern>
+  </defs>
+
+  <!-- Window -->
+  <rect width="820" height="160" rx="10" ry="10" fill="#0d0d0d"/>
+  <!-- Title bar -->
+  <rect width="820" height="36" rx="10" ry="10" fill="#1a1a1a"/>
+  <rect y="18" width="820" height="18" fill="#1a1a1a"/>
+  <!-- Traffic lights -->
+  <circle cx="22" cy="18" r="6" fill="#ff5f57"/>
+  <circle cx="42" cy="18" r="6" fill="#febc2e"/>
+  <circle cx="62" cy="18" r="6" fill="#28c840"/>
+  <!-- Title -->
+  <text x="410" y="23" class="mono" font-size="12" fill="#888888" text-anchor="middle" dominant-baseline="middle">amaltom@kali: ~</text>
+  <!-- Separator -->
+  <line x1="0" y1="36" x2="820" y2="36" stroke="#2a2a2a" stroke-width="1"/>
+
+  <!-- Prompt -->
+  <g class="l1">
+    <text x="20" y="68" class="mono" font-size="13.5" fill="#008f11">┌─[</text>
+    <text x="57" y="68" class="mono" font-size="13.5" fill="#00ff41">amaltom</text>
+    <text x="121" y="68" class="mono" font-size="13.5" fill="#008f11">@</text>
+    <text x="133" y="68" class="mono" font-size="13.5" fill="#00d4ff">kali</text>
+    <text x="168" y="68" class="mono" font-size="13.5" fill="#008f11">]─[</text>
+    <text x="202" y="68" class="mono" font-size="13.5" fill="#ffb000">~</text>
+    <text x="214" y="68" class="mono" font-size="13.5" fill="#008f11">]</text>
+  </g>
+  <g class="l2">
+    <text x="20" y="90" class="mono" font-size="13.5" fill="#008f11">└──╼ </text>
+    <text x="72" y="90" class="mono" font-size="13.5" fill="#00ff41">$ </text>
+    <text x="90" y="90" class="mono" font-size="13.5" fill="#ffffff">echo </text>
+    <text x="130" y="90" class="mono" font-size="13.5" fill="#ffb000">"Let's build something great."</text>
+  </g>
+
+  <!-- Output -->
+  <g class="l3">
+    <text x="20" y="116" class="mono" font-size="14" fill="#00ff41" font-weight="bold">Let's build something great.</text>
+  </g>
+
+  <!-- Cursor line -->
+  <g class="l4">
+    <rect x="20" y="127" width="10" height="17" fill="#00ff41" class="cursor"/>
+  </g>
+
+  <!-- Scanlines -->
+  <rect width="820" height="160" rx="10" fill="url(#scan3)" opacity="0.35"/>
+</svg>
