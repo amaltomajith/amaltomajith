@@ -10,29 +10,20 @@
 [![Instagram](https://img.shields.io/badge/INSTAGRAM-e1306c?style=for-the-badge&logo=instagram&logoColor=ffffff)](https://instagram.com/amaltomajith)
 [![Coffee](https://img.shields.io/badge/BUY_A_COFFEE-ffb000?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000)](https://buymeacoffee.com/amaltomajith)
 
-<img src="https://komarev.com/ghpvc/?username=amaltomajith&color=00ff41&style=flat-square&label=PROFILE+VIEWS"/>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/74038190/212751818-13da6fd2-27ca-45c4-9c64-3940ccfa6fd3.gif" width="480"/>
-
 </div>
 
 ---
 
 ## <img src="https://img.shields.io/badge/%E2%9A%A1_PROJECTS-00ff41?style=flat-square&logoColor=000"/>
 
-```
-┌─[amaltom@kali]─[~/projects]
-└──╼ $ ls -la --sort=impact
-```
+<img src="./projects_prompt.svg" width="100%"/>
 
 <br/>
 
 <div align="center">
 <table>
 <tr>
-<td align="center" width="33%">
+<td align="center" valign="top" width="33%">
 
 <img src="https://img.shields.io/badge/🛡️_SENTINEL-CYBERSECURITY-ff4444?style=flat-square"/>
 
@@ -50,7 +41,7 @@ time-wasting dialogue.
 [![SRC](https://img.shields.io/badge/SOURCE-1a1a1a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amaltomajith/SentilAI)
 
 </td>
-<td align="center" width="33%">
+<td align="center" valign="top" width="33%">
 
 <img src="https://img.shields.io/badge/🎙️_VOICESQL-AI_/_LLM-7b2fff?style=flat-square"/>
 
@@ -68,7 +59,7 @@ Talk to your database.
 [![SRC](https://img.shields.io/badge/SOURCE-1a1a1a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amaltomajith/VoiceSQLWeb)
 
 </td>
-<td align="center" width="33%">
+<td align="center" valign="top" width="33%">
 
 <img src="https://img.shields.io/badge/🎤_PREPPED-EDTECH_/_AI-00d4ff?style=flat-square"/>
 
@@ -88,7 +79,7 @@ Resume → Questions → Voice
 </td>
 </tr>
 <tr>
-<td align="center" width="33%">
+<td align="center" valign="top" width="33%">
 
 <img src="https://img.shields.io/badge/🌐_MAGNOVITE-FULL_STACK-00ff41?style=flat-square&logoColor=000"/>
 
@@ -105,7 +96,7 @@ Zero downtime.
 [![LIVE](https://img.shields.io/badge/▶_LIVE-00ff41?style=for-the-badge&labelColor=000)](https://magnovite2025.netlify.app/)
 
 </td>
-<td align="center" width="33%">
+<td align="center" valign="top" width="33%">
 
 <img src="https://img.shields.io/badge/📈_AXIOM-MACHINE_LEARNING-ffb000?style=flat-square"/>
 
@@ -123,7 +114,7 @@ trend visualizations.
 [![SRC](https://img.shields.io/badge/SOURCE-1a1a1a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amaltomajith/Axiom)
 
 </td>
-<td align="center" width="33%">
+<td align="center" valign="top" width="33%">
 
 <img src="https://img.shields.io/badge/🌱_TERRALEARN-NASA_HACKATHON-00cc99?style=flat-square"/>
 
@@ -143,7 +134,7 @@ Soil data → crop yield
 </td>
 </tr>
 <tr>
-<td align="center" width="33%">
+<td align="center" valign="top" width="33%">
 
 <img src="https://img.shields.io/badge/📖_STORYWEAVER-GENERATIVE_AI-7b2fff?style=flat-square"/>
 
@@ -161,7 +152,7 @@ Multi-path storytelling.
 [![SRC](https://img.shields.io/badge/SOURCE-1a1a1a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amaltomajith/story-weaver)
 
 </td>
-<td align="center" width="33%">
+<td align="center" valign="top" width="33%">
 
 <img src="https://img.shields.io/badge/🏠_EVERHOME-SOCIAL_IMPACT-00cc99?style=flat-square"/>
 
@@ -178,7 +169,7 @@ and the organization.
 [![LIVE](https://img.shields.io/badge/▶_LIVE-00ff41?style=for-the-badge&labelColor=000)](https://ever-home-ui.vercel.app/)
 
 </td>
-<td align="center" width="33%">
+<td align="center" valign="top" width="33%">
 
 <img src="https://img.shields.io/badge/🏢_HYPERTRACTION-CLOUD_/_SECURITY-00d4ff?style=flat-square"/>
 
@@ -242,17 +233,9 @@ security (SPF/DKIM).
 
 <img src="./experience.svg" width="100%"/>
 
-
 ---
 
 ## <img src="https://img.shields.io/badge/%F0%9F%93%8A_STATS-00ff41?style=flat-square"/>
-
-```
-┌─[amaltom@kali]─[~]
-└──╼ $ git log --all --stat --author="amaltomajith"
-```
-
-<br/>
 
 <div align="center">
 
@@ -261,7 +244,11 @@ security (SPF/DKIM).
 
 <br/><br/>
 
-<img width="82%" src="https://github-readme-streak-stats.herokuapp.com?user=amaltomajith&theme=matrix&hide_border=true&background=0d0d0d&ring=00ff41&fire=ffb000&currStreakLabel=00ff41&sideLabels=aaaaaa&dates=555555&stroke=1a1a1a&currStreakNum=00ff41&sideNums=00d4ff"/>
+<img width="80%" src="https://github-readme-streak-stats.herokuapp.com?user=amaltomajith&theme=matrix&hide_border=true&background=0d0d0d&ring=00ff41&fire=ffb000&currStreakLabel=00ff41&sideLabels=aaaaaa&dates=555555&stroke=1a1a1a&currStreakNum=00ff41&sideNums=00d4ff"/>
+
+<br/><br/>
+
+<img width="38%" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnRzMjNyYmJ0Y3JrcG14dzA4bG5oeXZnZnd0cDN6MDZmOHRhNGszOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GZjZqk1MKbBdN5AUfK/giphy.gif"/>
 
 <br/><br/>
 
