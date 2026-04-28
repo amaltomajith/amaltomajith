@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-00d4ff?style=for-the-badge&logo=vercel&logoColor=000000)](https://portfolio-kappa-ecru-89.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-00d4ff?style=for-the-badge&logo=vercel&logoColor=000000)](https://www.amaltom.com/)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0077b5?style=for-the-badge&logo=linkedin&logoColor=ffffff)](https://linkedin.com/in/amaltomajith)
 [![Email](https://img.shields.io/badge/EMAIL-00ff41?style=for-the-badge&logo=gmail&logoColor=000000)](mailto:work.amaltom@gmail.com)
 [![Instagram](https://img.shields.io/badge/INSTAGRAM-e1306c?style=for-the-badge&logo=instagram&logoColor=ffffff)](https://instagram.com/amaltomajith)
